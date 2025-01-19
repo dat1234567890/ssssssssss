@@ -144,3 +144,26 @@ button:hover {
     border-radius: 5px;
     background-color: #f9f9f9;
 }
+
+/* Kiểu dáng cho container chính */
+.carousel {
+    width: 100%; /* Hoặc kích thước cố định như 800px */
+    height: 400px; /* Tùy chỉnh chiều cao */
+    overflow: hidden; /* Ẩn phần tràn ra ngoài */
+    position: relative;
+}
+
+/* Kiểu dáng cho phần chứa ảnh */
+.slides {
+    display: flex;
+    width: 300%; /* Tổng chiều rộng = số ảnh x 100% */
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Ảnh trong carousel */
+.slides img {
+    width: 100%; /* Ảnh chiếm toàn bộ chiều rộng container */
+    height: 100%;
+    object-fit: cover; /* Ảnh vừa khung */
+}

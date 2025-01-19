@@ -14,22 +14,23 @@ body {
 
 /* Sidebar */
 .sidebar {
+
     width: 250px;
-    background-color: #2e2e2e;
+    background-color: #2c2c2c;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    height: 100vh;
 }
 
 .logo h2 {
     font-size: 24px;
     font-weight: bold;
-    color: #681ec9;
+    color: #ffffff;
 }
 
 .logo span {
-    color: #fff;
+    color: #ffffff;
 }
 
 .menu {
@@ -44,6 +45,11 @@ body {
     align-items: center;
     gap: 10px;
     cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color :rgb(255, 255, 255);
 }
 
 .menu li:hover {
