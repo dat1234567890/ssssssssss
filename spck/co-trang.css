@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1b1522;
+    color: white;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.left-section {
+    width: 30%;
+    padding-right: 20px;
+    border-right: 1px solid #444;
+}
+
+.playlist-cover {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.left-section h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.description,
+.author,
+.likes {
+    margin: 5px 0;
+    color: #aaa;
+}
+
+.play-btn {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.play-btn:hover {
+    background-color: #5a0bad;
+}
+
+.right-section {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.right-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead tr {
+    background-color: #8a089b;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+table tbody tr:hover {
+    background-color: #444;
+}
+.arrow-left {
+    color: #ffff;         /* Màu sắc của mũi tên */
+    font-size: 50px;        /* Tăng kích thước mũi tên (điều chỉnh số này để to/nhỏ hơn) */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.arrow-left:hover {
+    transform: translateX(-5px); /* Mũi tên trượt sang trái khi hover */
+}
